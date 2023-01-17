@@ -4,7 +4,7 @@
   requirement: |
     Пользователь должен иметь возможность искать товары по ключевому слову
   prerequisites: |
-    Открыть сайт https://hexlet-products-store.vercel.app
+    Открыть сайт hexlet-products-store.vercel.app
   steps:
     - В строке поиска ввести macbook pro
   expected-result: |
@@ -15,7 +15,7 @@
   requirement: |
     Пользователь должен иметь возможность просматривать содержимое корзины после добавления товаров.
   prerequisites:
-    Открыть сайт https://hexlet-products-store.vercel.app
+    Открыть сайт hexlet-products-store.vercel.app
     Корзина пустая
   steps:
     - В каталоге товаров нажать на кнопку любого конкретного товара "Add to cart"
@@ -28,7 +28,7 @@
   requirement: |
     На странице корзины пользователь может удалить товар из корзины, продолжить выбирать товары в каталоге. При этом нужные товары сохранятся в корзине
   prerequisites:
-    Открыть сайт https://hexlet-products-store.vercel.app
+    Открыть сайт hexlet-products-store.vercel.app
     В корзине должно находиться несколько позиций товаров
   steps:
     - В разделе корзины на одном из товаров нажать на кнопку "Delete"
@@ -42,7 +42,7 @@
   requirement: |
     Пользователь должен иметь возможность искать товары по категории
   prerequisites:
-    Открыть сайт https://hexlet-products-store.vercel.app
+    Открыть сайт hexlet-products-store.vercel.app
     Категория не выбрана
   steps:
     - Нажать на кнопку "Category"
@@ -56,7 +56,7 @@
   requirement: |
     Пользователь должен иметь возможность просматривать подробную информацию о товаре, а именно на странице товара и в каталоге выводятся название, рейтинг, цена со скидкой и без, фотографии, описание.
   prerequisites:
-    Открыть сайт https://hexlet-products-store.vercel.app
+    Открыть сайт hexlet-products-store.vercel.app
   steps:
     - Выбрать один конкретный товар и щёлкнуть по нему ЛКМ 
     - На открывшейся странице найти название выбранного ранее товара, его фотографиий, цена со скидкой и без, описание, рейтинг 
@@ -68,7 +68,7 @@
   requirement: |
     Пользователь должен иметь возможность просматривать подробную информацию о товаре, а именно на странице товара и в каталоге выводятся название, рейтинг, цена со скидкой и без, фотографии, описание.
   prerequisites:
-    Открыть сайт https://hexlet-products-store.vercel.app
+    Открыть сайт hexlet-products-store.vercel.app
   steps:
     - Выбрать один конкретный товар зрительно
     - Сконцентрироваться на  название выбранного ранее товара, его фотографии, цена со скидкой и без, описание, рейтинг 
@@ -80,7 +80,7 @@
   requirement: |
     Пользователь должен иметь возможность оформить заказ с переходом на страницу оплаты, используя товар из корзины.
   prerequisites:
-    Открыть сайт https://hexlet-products-store.vercel.app
+    Открыть сайт hexlet-products-store.vercel.app
     Корзина пустая
   steps:
     - Добавить нужный товар в корзину с помощью кнопки "Add to cart"
@@ -95,7 +95,7 @@
   requirement: |
     Корзина хранится в сессии браузера
   prerequisites:
-    Открыть сайт https://hexlet-products-store.vercel.app
+    Открыть сайт hexlet-products-store.vercel.app
   steps:
     - Добавить нужный товар в корзину по кнопке "add to cart"
     - Перейти в DevTools, нажав F12
