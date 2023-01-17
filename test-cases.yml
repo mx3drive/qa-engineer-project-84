@@ -97,7 +97,7 @@
   prerequisites:
     Открыть сайт hexlet-products-store.vercel.app
   steps:
-    - Добавить нужный товар в корзину по кнопке "add to cart"
+    Добавить нужный товар в корзину по кнопке "add to cart"
     - Перейти в DevTools, нажав F12
     - Перейти в раздел "Приложения" => "файлы cookie". 
     - Найти https://hexlet-products-store.vercel.app/cart
