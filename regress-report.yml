@@ -8,4 +8,12 @@ test-cases:
       Не сохраняются куки корзины в браузере
     status: pass
 
+  - summary: |
+      Не работает поиск товара по ключевому слову
+    status: pass
+    
+  - summary: |
+      Нельзя отменить выбранную категорию поиска
+    status: pass
+    
 bugreports: []
