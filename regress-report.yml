@@ -13,7 +13,7 @@ test-cases:
     status: pass
     
   - summary: |
-      Нельзя отменить выбранную категорию поиска
+      Нет сброса фильтра по категории
     status: pass
     
 bugreports: []
